@@ -11,8 +11,7 @@ function setup() {
  for (var i = 0; i < matrix_length; i++) {
       matrix[i] = [];
    for (var j = 0; j < matrix_hight; j++) {
-      matrix[i][j] = random(0,5.5) | 0;
-      if(matrix[i][j] == 5) matrix[i][j] = -1;
+      matrix[i][j] = random(0,4.5) | 0;
       }
  }
     matrix[5][45] = 5;
